@@ -1,0 +1,167 @@
+
+ html, body{
+     height: 100%;
+     width: 100%;
+     font: 300 1em 'Helvetica Neue';
+     /*display: inline-block;*/
+ }
+
+div#header{
+    width: 1230px;
+    height: 50px;
+    padding: 1em;
+    margin: 3px auto 0 auto;
+    background-color: #eeeeee;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+
+div#title{
+    font-size: 2em;
+    text-align: center;
+}
+
+div#body{
+    width: 1230px;
+    margin: 5px auto -50px auto;
+
+}
+/*    div#body:after{
+        content: "";
+        display: block;
+        height: 50px;
+    }
+
+    div#footer{
+        width: 1230px;
+        padding: 1em;
+        margin: 0 auto;
+        background-color: #eeeeee;
+        box-shadow: 10px 10px 10px whitesmoke;
+    }*/
+
+div#left_body{
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+    background-color: #eeeeee;
+
+}
+
+div#carousel_container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+div#slider{
+    height: 500px;
+    width: 500px;
+    margin: 5px auto;
+    overflow: scroll;
+}
+
+ul#slider_base{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li{
+    height: 500px;
+    width: 500px;
+    display: block;
+    float:left;
+}
+
+div#right_body{
+    width: 600px;
+    height: 560px;
+    float: right;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    display: inline-block;
+    align-items: center;
+
+}
+
+div#login{
+    width: 600px;
+    height: 410px;
+    padding: 0;
+    margin: 0 auto;
+    /*position: relative;*/
+    display: inline-block;
+    /*border: 2px solid darkred;*/
+    /*align-items: center;*/
+    font: 300 1em 'Helvetica Neue';
+}
+
+form#login_form{
+    width: 500px;
+    margin: 50px;
+    display: inline-block;
+    /* border: 2px solid black;*/
+    align-items: center;
+    box-shadow: 5px 5px 5px gray;
+    background-color: darkgrey;
+    font: 300 1em 'Helvetica Neue';
+}
+
+input{
+
+    width: 300px;
+    height: 35px;
+    margin: 10px 100px;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+    /*border: 1px solid chartreuse;*/
+    font: 300 1em 'helvetica neue';
+}
+
+
+div.message{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Hack found on CSS tricks to create arrows out of div elements*/
+div#move-top{
+    height: 0;
+    width: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+
+    border-bottom: 25px solid black;
+
+}
+
+div#move-bottom{
+    height: 0;
+    width: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 25px solid black;
+}
+
+div#move-top:hover, div#move-bottom:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+input#uname{
+    font: 300 1em 'Helvetica Neue'
+}
+
+input#password{
+    font: 300 1em 'Helvetica Neue'
+}
+
+input#submit{
+    font: 300 1em 'Helvetica Neue'
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Welcome to Should I Read It!</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/carousel_operation.js">    </script>
+</head>
+<body>
+<div id="base_container">
+    <div id="header">
+        <div id="title">Welcome to Should-I-Read-It</div>
+    </div>
+    <div id="body">
+        <div id="left_body">
+            <div id="carousel_container">
+                <div id="move-top">
+                    <!--span id="left_move" class="arrow">&laquo;</span-->
+                </div>
+                <div id="slider">
+                    <ul id="slider_base">
+                        <li class="carousel_pics"><img src="images/books1.jpg" alt="book1"></li>
+                        <li class="carousel_pics"><img src="images/books2.jpg" alt="book2"></li>
+                        <li class="carousel_pics"><img src="images/books3.jpg" alt="book3"></li>
+                        <li class="carousel_pics"><img src="images/books4.jpg" alt="book4"></li>
+                        <li class="carousel_pics"><img src="images/books5.jpg" alt="book5"></li>
+                        <li class="carousel_pics"><img src="images/books6.jpg" alt="book6"></li>
+                    </ul>
+                </div>
+                <div id="move-bottom">
+                    <!--span id="right_move" class="arrow">&laquo;</span-->
+                </div>
+            </div>
+        </div>
+        <div id="right_body">
+            <div class="message"> Welcome to Should I Read It! <br/> Please Enter Your Criteria Below... </div>
+            <div id="login">
+                <div id="login_form" methos="post">
+                    <input type="text" name="Book_Name" id="bname" placeholder="Book Title"/>
+                    <input type="text" name="Author" id="author" placeholder="Author"/>
+
+                    <button type="submit" name="Submit" id="submit" value="Submit"></button>
+                </div>
+            </div>
+            <div class="message"> Thank you for using our Services!</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="bottom"> Some copyright info here...</div>
+    </div>
+</div>
+</body>
+</html>
